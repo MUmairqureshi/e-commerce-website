@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,500,600,700&dispaly=swap');
+a .link__active {
+  border-bottom: 2px solid #fff;
+}
+
+.h7 {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #14141f;
+  align-items: block;
+  display: block;
+}
+
+Nav form {
+  display: flex;
+  border-radius: 2px;
+  padding: 0 30px;
+  height: 40px;
+  background: #1e232b;
+  min-width: 18% !important;
+  border: 1px solid rgba(155, 155, 155, 0.2);
+  white-space: nowrap;
+  display: inline-block;
+  display: block;
+  // margin-top: -40px;
+
+  margin-left: -100px;
+}
+
+
+
+
+Nav form .search-data {
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 500;
+  background: none;
+  border: none;
+  font-size: 17px;
+
+}
+
+Nav .form #button {
+  height: 23px;
+  width: 30px;
+  padding: 40 55px;
+  background: #ff3d00;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.product-frame {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+@media (max-width:1245px) {
+
+  Nav {
+    padding: 0 50px;
+
+  }
+
+}
+
